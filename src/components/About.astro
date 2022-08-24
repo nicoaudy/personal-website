@@ -1,0 +1,19 @@
+---
+function calculateYear(date) {
+  const ageDifMs = Date.now() - new Date(date).getTime();
+  const ageDate = new Date(ageDifMs);
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+---
+
+<script>
+  const milisecondsEl = document.getElementById('miliseconds')
+  setInterval(() => miliseconds.innerHTML = new Date() - new Date('2014-10-01').getTime(), 100)
+</script>
+
+<h1 class="mb-6 title">Hello World!</h1>
+<p class="mb-4">
+  I'm a Software Engineer from Jakarta, Indonesia 🇮🇩.
+  I'm {calculateYear('1994-08-22')} years old and I've been making websites for about {calculateYear('2014-10-01')} years - or exactly <span id="miliseconds"></span> milliseconds!
+  I use HTML, CSS and PHP, JavaScript, and Dart. Though constantly changing, my focus right now is Laravel, Vue, React.js, Node, Express, Flutter.
+</p>

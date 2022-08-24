@@ -1,10 +1,9 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "NicoAudy",
+	"short_name": "NicoAudy",
+	"description": "Personal website about nicoaudy.",
 	"icons": [
-		{
-			"src": "images/icon/192x192.png",
+		{ "src": "images/icon/192x192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},

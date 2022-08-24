@@ -1,5 +1,5 @@
 {
-	"name": "astro-cactus",
+	"name": "personal-website",
 	"version": "1.2.0",
 	"private": false,
 	"scripts": {
@@ -10,7 +10,7 @@
 		"format": "prettier -w ./src ./src/**/*.astro"
 	},
 	"devDependencies": {
-		"@astrojs/image": "^0.3.4",
+		"@astrojs/image": "^0.3.6",
 		"@astrojs/mdx": "^0.9.0",
 		"@astrojs/sitemap": "^1.0.0",
 		"@astrojs/tailwind": "^1.0.0",

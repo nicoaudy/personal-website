@@ -1,9 +1,9 @@
 const siteMeta = {
-  title: "Astro Theme Cactus",
-  description: "An opinionated starter theme for Astro",
+  title: "NicoAudy",
+  description: "Personal website about nicoaudy.",
   lang: "en-GB",
   ogLocale: "en_GB",
-  githubUrl: "https://github.com/chrismwilliams/astro-theme-cactus",
+  githubUrl: "https://github.com/nicoaudy/personal-website",
   themeColorLight: "#fafafa",
   themeColorDark: "#1d1f21",
 }
